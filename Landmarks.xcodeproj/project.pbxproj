@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C5A0E7DD2E2156E700C8669B /* Landmarks */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Landmarks;
-			sourceTree = "<group>";
-		};
 		C5A0E7EB2E2156E900C8669B /* LandmarksTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LandmarksTests;
@@ -43,6 +38,11 @@
 		C5A0E7F52E2156E900C8669B /* LandmarksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		C5A0E8492E22354B00C8669B /* Landmarks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		C5A0E7D22E2156E700C8669B = {
 			isa = PBXGroup;
 			children = (
-				C5A0E7DD2E2156E700C8669B /* Landmarks */,
+				C5A0E8492E22354B00C8669B /* Landmarks */,
 				C5A0E7EB2E2156E900C8669B /* LandmarksTests */,
 				C5A0E7F52E2156E900C8669B /* LandmarksUITests */,
 				C5A0E7DC2E2156E700C8669B /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C5A0E7DD2E2156E700C8669B /* Landmarks */,
+				C5A0E8492E22354B00C8669B /* Landmarks */,
 			);
 			name = Landmarks;
 			packageProductDependencies = (
